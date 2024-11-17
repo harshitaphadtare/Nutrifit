@@ -23,16 +23,16 @@ const Navbar = () => {
             <div className="dot"></div>
         </div>
         {/* signup button */}
-        <div class="container">
-          <div class="wrapper">
-              <button class="btn">
-                  <div class="btn__bg">
-                      <span class="btn__bg__layer btn__bg__layer-first"></span>
-                      <span class="btn__bg__layer btn__bg__layer-second"></span>
-                      <span class="btn__bg__layer btn__bg__layer-third"></span>
+        <div className="container">
+          <div className="wrapper">
+              <button className="btn">
+                  <div className="btn__bg">
+                      <span className="btn__bg__layer btn__bg__layer-first"></span>
+                      <span className="btn__bg__layer btn__bg__layer-second"></span>
+                      <span className="btn__bg__layer btn__bg__layer-third"></span>
                   </div>
-                  <span class="btn__text-out">sign in</span>
-                  <span class="btn__text-in">sign in</span>
+                  <span className="btn__text-out">sign in</span>
+                  <span className="btn__text-in">sign in</span>
               </button>
           </div>
         </div>
