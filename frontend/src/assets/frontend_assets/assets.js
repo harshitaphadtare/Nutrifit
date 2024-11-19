@@ -121,151 +121,172 @@ export const food_list = [
         _id: "1",
         name: "Greek salad",
         image: food_1,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 180,
+        description: "A refreshing mix of cucumbers, tomatoes, olives, and feta cheese.",
+        nutrients: "Fiber: 3g  Protein: 5g Calorie: 120kcal.",
         category: "Salad"
     },
     {
         _id: "2",
-        name: "Veg salad",
+        name: "Veg Salad",
         image: food_2,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 150,
+        description: "Crisp lettuce, bell peppers, and carrots with a light vinaigrette.",
+        nutrients: "Fiber: 4g Protein: 4g Calorie: 100kcal.",
         category: "Salad"
-    }, {
+    },  {
         _id: "3",
         name: "Clover Salad",
         image: food_3,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 200,
+        description: "A nutritious blend of clover sprouts, radishes, and arugula.",
+        nutrients: "Fiber: 5g Protein: 6g Calorie: 140kcal.",
         category: "Salad"
     }, {
         _id: "4",
         name: "Chicken Salad",
         image: food_4,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 220,
+        description: "Grilled chicken, mixed greens, and a tangy lemon dressing.",
+        nutrients: "Fiber: 3g Protein: 25g Calorie: 210kcal.",
         category: "Salad"
     }, {
         _id: "5",
-        name: "Lasagna Rolls",
+        name: "Hummus Wrap",
         image: food_5,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        price: 200,
+        description: "Whole-grain wrap filled with hummus, cucumbers, and sprouts.",
+        nutrients: "Fiber: 5g Protein: 7g Calorie: 240kcal.",
+        category: "Wraps"
     }, {
         _id: "6",
-        name: "Peri Peri Rolls",
+        name: "Paneer Wrap",
         image: food_6,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        price: 250,
+        description: "Paneer tikka wrapped in a spicy whole-grain tortilla.",
+        nutrients: "Fiber: 3g Protein: 14g Calorie: 300kcal.",
+        category: "Wraps"
     }, {
         _id: "7",
-        name: "Chicken Rolls",
+        name: "Bulk Smoothie",
         image: food_7,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        price: 180,
+        description: "A creamy blend of banana, peanut butter, and almond milk.",
+        nutrients: "Fiber: 4g Protein: 8g Calorie: 200kcal.",
+        category: "Smoothie"
     }, {
         _id: "8",
-        name: "Veg Rolls",
+        name: "Pineapple Smoothie",
         image: food_8,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        price: 190,
+        description: "A refreshing drink with pineapple, coconut water, and lime.",
+        nutrients: "Fiber: 2g Protein: 3g Calorie: 150kcal.",
+        category: "Smoothie"
     }, {
         _id: "9",
-        name: "Ripple Ice Cream",
+        name: "Chicken Sandwich",
         image: food_9,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 220,
+        description: "Grilled chicken, avocado, and lettuce on whole-grain bread.",
+        nutrients: "Fiber: 4g Protein: 25g Calorie: 320kcal.",
+        category: "Sandwich"
     }, {
         _id: "10",
-        name: "Fruit Ice Cream",
-        image: food_10,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        name: "Vegan Sandwich",
+        image: food_14,
+        price: 200,
+        description: "Multigrain bread with avocado, tomato, and a vegan spread.",
+        nutrients: "Fiber: 6g Protein: 10g Calorie: 240kcal.",
+        category: "Sandwich"
     }, {
         _id: "11",
-        name: "Jar Ice Cream",
+        name: "Caprese Sandwich",
         image: food_11,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 210,
+        description: "Fresh mozzarella, tomato, and basil on multigrain bread.",
+        nutrients: "Fiber: 4g Protein: 12g Calorie: 280kcal.",
+        category: "Sandwich"
     }, {
         _id: "12",
-        name: "Vanilla Ice Cream",
+        name: "Avocado Sandwich",
         image: food_12,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 240,
+        description: "A creamy mix of avocado and chickpeas on toasted sourdough.",
+        nutrients: "Fiber: 6g Protein: 10g Calorie: 260kcal.",
+        category: "Sandwich"
     },
     {
         _id: "13",
-        name: "Chicken Sandwich",
+        name: "Cheese Pasta",
         image: food_13,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 369,
+        description: "Whole-grain pasta with a creamy cheese sauce.",
+        nutrients: "Fiber: 4g Protein: 12g Calorie: 320kcal.",
+        category: "Pasta"
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
+        name: "Tomato Pasta",
         image: food_14,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 340,
+        description: "A tangy tomato-based pasta with fresh green basil.",
+        nutrients: "Fiber: 3g Protein: 8g Calorie: 250kcal.",
+        category: "Pasta"
     }, {
         _id: "15",
-        name: "Grilled Sandwich",
+        name: "Creamy Pasta",
         image: food_15,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 210,
+        description: "Pasta with a rich creamy sauce and sautéed mushrooms.",
+        nutrients: "Fiber: 2g Protein: 9g Calorie: 300kcal.",
+        category: "Pasta"
     }, {
         _id: "16",
-        name: "Bread Sandwich",
+        name: "Chicken Pasta",
         image: food_16,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
-    }, {
+        price: 250,
+        description: "Grilled chicken with herbed pasta in a garlic sauce.",
+        nutrients: "Fiber: 3g Protein: 30g Calorie: 400kcal.",
+        category: "Pasta"
+    },{
         _id: "17",
-        name: "Cup Cake",
+        name: "Almond Flour Brownies",
         image: food_17,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
-    }, {
+        price: 220,
+        description: "Gooey brownies made with almond flour and dark chocolate.",
+        nutrients: "Fiber: 4g Protein: 16g Calorie: 180kcal.",
+        category: "Healthy Desserts"
+    },{
         _id: "18",
-        name: "Vegan Cake",
+        name: "Fruit Parfait",
         image: food_18,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 180,
+        description: "Layers of yogurt, granola, and mixed fresh fruits.",
+        nutrients: "Fiber: 3g Protein: 10g Calorie: 150kcal.",
+        category: "Healthy Desserts"
     }, {
         _id: "19",
-        name: "Butterscotch Cake",
+        name: "Rice Zucchini",
         image: food_19,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 210,
+        description: "Healthy rice bowl with zucchini and fresh herbs.",
+        nutrients: "Fiber: 5g Protein: 6g Calorie: 180kcal.",
+        category: "Pure Veg"
     }, {
         _id: "20",
-        name: "Sliced Cake",
+        name: "Spicy Cauli",
         image: food_20,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        price: 220,
+        description: "Crispy pan-tossed cauliflower served with a spicy dip.",
+        nutrients: "Fiber: 3g Protein: 7g Calorie: 150kcal.",
+        category: "Pure Veg"
     }, {
         _id: "21",
-        name: "Garlic Mushroom ",
+        name: "Mix Veg Pulao",
         image: food_21,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 180,
+        description: "Aromatic rice cooked with fresh vegetables and spices.",
+        nutrients: "Fiber: 3g Protein: 6g Calorie: 200kcal.",
         category: "Pure Veg"
     }, {
         _id: "22",
@@ -292,7 +313,7 @@ export const food_list = [
     {
         _id: "25",
         name: "Cheese Pasta",
-        image: food_25,
+        image: food_26,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Pasta"

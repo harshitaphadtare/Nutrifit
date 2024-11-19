@@ -20,7 +20,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 .food-item-name-rating  p{
@@ -68,6 +67,17 @@
     background-color: white;
 }
 
+.food-name{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
 .food-item-counter img{
     width: 30px;
+}
+
+.food-item-info .nutrients{
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
 }
