@@ -133,7 +133,7 @@ export const menu_list = [
             price: 250,
             description: "Paneer tikka wrapped in a spicy whole-grain tortilla.",
             nutrients: "Fiber: 3g Protein: 14g Calorie: 300kcal.",
-            category: "Wrap"
+            category: "Wraps"
         },
         {
             _id: "3",
@@ -232,7 +232,7 @@ export const menu_list = [
             price: 200,
             description: "Whole-grain wrap filled with hummus, cucumbers, and sprouts.",
             nutrients: "Fiber: 5g Protein: 7g Calorie: 240kcal.",
-            category: "Wrap"
+            category: "Wraps"
         },
         {
             _id: "14",
@@ -259,7 +259,7 @@ export const menu_list = [
             price: 200,
             description: "Whole-grain wrap filled with spinach, feta, and a hint of garlic.",
             nutrients: "Fiber: 4g Protein: 10g Calorie: 250kcal.",
-            category: "Wrap"
+            category: "Wraps"
         },
         {
             _id: "17",
