@@ -143,6 +143,9 @@
 	background-color: var(--color-main-third);
 	border-radius: 999rem;
 	overflow: hidden;
+	position: absolute; 
+    top: 0;
+    left: 0;
 }
 
 .btn__bg__layer {
@@ -169,4 +172,24 @@
 
 .btn__bg__layer-third {
 	background-color: var(--color-main-third);
+}
+
+@media (max-width:1050px){
+
+	.header-contents{
+		max-width: 45%;
+	}
+}
+
+@media (max-width:750px){
+
+	.header-contents{
+		max-width: 65%;
+	}
+	.header-contents p{
+		display: none;
+	}
+	.header-contents button{
+		padding: 2vw 4vw;
+	}
 }
