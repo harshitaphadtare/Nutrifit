@@ -73,7 +73,12 @@
 }
 
 .login-popup p span{
-    color: #FFA500;
+    color: #2F2F2F;
     font-weight: 500;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.login-popup p span:hover{
+    font-weight: 700;
 }
