@@ -48,12 +48,12 @@ const Cart = () => {
             <hr />
             <div className="cart-total-details">
               <p>Delivery Fee</p>
-              {Object.keys(cartItems).some((key) => cartItems[key] > 0)?<p>₹{20}</p>:<p>₹0</p>}
+              {getTotalCartAmount() === 0 ?<p>₹0</p>:<p>₹{20}</p>}
             </div>
             <hr />
             <div className="cart-total-details">
               <b>Total</b>
-              {Object.keys(cartItems).some((key) => cartItems[key] > 0)?<b>₹{getTotalCartAmount() + 20}</b>:<p>₹0</p>}
+              {getTotalCartAmount() === 0 ?<b>₹0</b>:<p>₹{getTotalCartAmount() + 20}</p>}
             </div>
           </div>
           <button onClick={()=>navigate('/order')}>PROCEED TO CHECKOUT</button>
