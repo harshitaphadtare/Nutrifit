@@ -22,6 +22,33 @@ a{
   margin: auto;
 }
 
+.scroll-up-button {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #4caf50; 
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0.8;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-up-button svg{
+  width: 20px;
+  height: 20px;
+}
+.scroll-up-button:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+
 @keyframes fadeIn {
   0%{
     opacity: 0;
