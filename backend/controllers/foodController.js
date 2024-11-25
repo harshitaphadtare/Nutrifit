@@ -15,6 +15,7 @@ const addFood = async (req, res) => {
 
         const food = new foodModel({
             name: req.body.name,
+            nutrients: req.body.nutrients,
             description: req.body.description,
             price: req.body.price,
             category: req.body.category,

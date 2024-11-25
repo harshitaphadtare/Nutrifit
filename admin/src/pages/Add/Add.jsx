@@ -9,6 +9,7 @@ const Add = ({url}) => {
   const [image,setImage] = useState(false);
   const [data,setData] = useState({
     name:"",
+    nutrients:"",
     description:"",
     price:"",
     category:"Salad" //set as default 
@@ -24,6 +25,7 @@ const Add = ({url}) => {
     event.preventDefault();
     const formData =new FormData();
     formData.append("name",data.name);
+    formData.append("nutrients",data.nutrients);
     formData.append("description",data.description);
     formData.append("price",Number(data.price));
     formData.append("category",data.category);
@@ -32,6 +34,7 @@ const Add = ({url}) => {
     if(response.data.success){
       setData({
         name:"",
+        nutrients:"",
         description:"",
         price:"",
         category:"Salad" //set as default 
@@ -55,7 +58,11 @@ const Add = ({url}) => {
         </div>
         <div className="add-product-name flex-col">
           <p>Product name</p>
-          <input onChange={onChangeHandler} value={data.name} type="text" name='name' placeholder='Type here' />
+          <input onChange={onChangeHandler} value={data.name} type="text" name='name' placeholder='Type here' required />
+        </div>
+        <div className="add-product-name flex-col">
+          <p>Nutrients</p>
+          <input onChange={onChangeHandler} value={data.nutrients} type="text" name='nutrients' placeholder='Fiber: 3g Protein: 5g Calorie: 120kcal.' required />
         </div>
         <div className="add-product-description flex-col">
           <p>Product description</p>
