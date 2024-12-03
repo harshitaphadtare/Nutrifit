@@ -71,7 +71,43 @@
 	width: 7rem;
 }
 
+.navbar-profile{
+	position: relative;
+}
 
+.navbar-profile:hover .nav-profile-dropdown{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	background-color: #FFF9C4;
+	padding: 12px 25px;
+	border-radius: 4px;
+	outline: 2px solid white;
+	list-style: none;
+}
+
+.nav-profile-dropdown li{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	cursor: pointer;
+	color: tomato;
+}
+
+.nav-profile-dropdown img{
+	width: 20px;
+}
+
+.nav-profile-dropdown li:hover{
+	font-weight: 600;
+}
+
+.nav-profile-dropdown{
+	position: absolute;
+	display: none;
+	right: 0;
+	z-index: 1;
+}
 /* signup btn */
 .btn {
 	display: inline-block;
