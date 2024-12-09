@@ -20,7 +20,11 @@ const addToCart = async (req,res) =>{
 
 //remove items from user cart
 const removeFromCart = async (req,res) =>{
-
+    try {
+        
+    } catch (error) {
+        
+    }
 }
 
 //get items from user cart
