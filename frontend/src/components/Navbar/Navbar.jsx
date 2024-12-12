@@ -70,7 +70,6 @@ const Navbar = ({ setShowLogin }) => {
         </a>
       </ul>
       <div className="navbar-right">
-        <img src={assets.search_icon} alt="search-icon" />
         <div className="navbar-search-icon">
           <Link to="/cart">
             <img src={assets.basket_icon} alt="basket-icon" />
@@ -103,7 +102,7 @@ const Navbar = ({ setShowLogin }) => {
                 className="nav-profile-dropdown"
                 onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside dropdown
               >
-                <li>
+                <li onClick={()=>navigate("/myorders")}>
                   <img src={assets.bag_icon} alt="orders" />
                   <p>Orders</p>
                 </li>
