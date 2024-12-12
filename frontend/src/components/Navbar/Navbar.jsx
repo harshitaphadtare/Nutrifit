@@ -100,8 +100,10 @@ const Navbar = ({ setShowLogin }) => {
             {showDropdown && (
               <ul
                 className="nav-profile-dropdown"
-                onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside dropdown
-              >
+                onClick={(e) => e.stopPropagation()} 
+              > 
+              <li className='heading-name'>Hello,</li>
+              <hr />
                 <li onClick={()=>navigate("/myorders")}>
                   <img src={assets.bag_icon} alt="orders" />
                   <p>Orders</p>
