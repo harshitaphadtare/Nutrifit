@@ -7,6 +7,7 @@ import { StoreContext } from '../../context/StoreContext';
 const Navbar = ({ setShowLogin }) => {
   const [menu, setMenu] = useState("home");
   const [showDropdown, setShowDropdown] = useState(false);
+  const [greet,setGreet] = useState("");
 
   const { getTotalCartAmount, token, setToken } = useContext(StoreContext);
 
@@ -19,6 +20,21 @@ const Navbar = ({ setShowLogin }) => {
     setToken("");
     navigate("/");
   };
+
+  function greetings() {
+    const hour = new Date().getHours(); 
+    if (hour >= 0 && hour < 12) {
+      setGreet("Good Morning!");
+    } else if (hour >= 12 && hour < 19) {
+      setGreet("Good Afternoon");
+    } else {
+      setGreet("Good Evening");
+    }
+  }
+
+  useEffect(() => {
+    greetings();
+  }, []);
 
   // Close dropdown when clicking outside
   useEffect(() => {
@@ -102,7 +118,7 @@ const Navbar = ({ setShowLogin }) => {
                 className="nav-profile-dropdown"
                 onClick={(e) => e.stopPropagation()} 
               > 
-              <li className='heading-name'>Hello,</li>
+              <li className='heading-name'>{greet}</li>
               <hr />
                 <li onClick={()=>navigate("/myorders")}>
                   <img src={assets.bag_icon} alt="orders" />

@@ -37,8 +37,15 @@ const MyOrders = () => {
                             })}</p>
                             <p>₹{order.amount}.00</p>
                             <p>Items:{order.items.length}</p>
-                            <p><span>&#x25cf;</span><b>{order.status}</b></p>
-                            <button>Track Order</button>
+                            {order.status === "Food Processing" ? (
+                                <p><span style={{color: "tomato"}}>&#x25cf;</span><b>{order.status}</b></p>
+                            ) : order.status === "Out for Delivery" ? (
+                                <p><span style={{color: "orange"}}>&#x25cf;</span><b>{order.status}</b></p>
+                            ) : (
+                                <p><span style={{color: "green"}}>&#x25cf;</span><b>{order.status}</b></p>
+                            )}
+                            
+                            <button onClick={fetchOrders}>Track Order</button>
                         </div>
                     )
                 })}
