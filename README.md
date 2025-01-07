@@ -9,9 +9,9 @@ Key Features:
 
 Demo Links:
 
-**Nutrifit Home Page** - https://nutrifit-frontend-4mau.onrender.com/
+**Home Page** - https://nutrifit-frontend-4mau.onrender.com/
 
-**Nutrifit Admin Panel** - https://nutrifit-admin.onrender.com/list
+**Admin Panel** - https://nutrifit-admin.onrender.com/list
 
 This guide will help you set up and start the project.
 
